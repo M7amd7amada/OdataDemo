@@ -1,0 +1,4 @@
+@host = https://localhost:44350/api/Demo
+
+GET {{host}}/GetAll? filter = Name eq 'Item 4' & top = 1
+Accept: application/json
